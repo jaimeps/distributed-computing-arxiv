@@ -19,12 +19,12 @@ Exploratory Data Analysis and Community Detection, implemented with three differ
 
 ### Experimental environment:
 Local: <br /> 
-    MacBook Pro 2.7 GHz Intel Core i5 16 GB 1867 MHz DDR3
+>MacBook Pro 2.7 GHz Intel Core i5 16 GB 1867 MHz DDR3
 
 Distributed: <br /> 
-    4-node cluster of r3.xlarge (160GB) emr-4.6.0 <br /> 
-    Hadoop distribution: Amazon 2.7.2 <br /> 
-    Applications: Hive 1.0.0, Pig 0.14.0, Spark 1.6.1 <br /> 
+>4-node cluster of r3.xlarge (160GB) emr-4.6.0 <br /> 
+>Hadoop distribution: Amazon 2.7.2 <br /> 
+>Applications: Hive 1.0.0, Pig 0.14.0, Spark 1.6.1 <br /> 
 
 ### Results:
 The following table summarizes the running time (in seconds) of the tasks in each of the different platforms (postgreSQL, Hive and SparkSQL):
