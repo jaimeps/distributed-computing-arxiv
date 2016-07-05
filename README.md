@@ -19,7 +19,7 @@ Exploratory Data Analysis and Community Detection, implemented with three differ
 
 ### Experimental environment:
 Local: <br /> 
-    MacBook Pro 2.7 GHz Intel Core i5 16 GB 1867 MHz DDR3
+<br/>MacBook Pro 2.7 GHz Intel Core i5 16 GB 1867 MHz DDR3
 
 Distributed: <br /> 
 	4-node cluster of r3.xlarge (160GB) emr-4.6.0 <br /> 
