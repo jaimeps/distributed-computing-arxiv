@@ -1,1 +1,27 @@
-# distributed-computing-arxiv
+## Analysis of ArXiv.org database of scientific papers
+
+MSAN 694 - Distributed Computing <br />
+Team: [D. Wen](https://github.com/davidjeffwen), [A. Romriell](https://github.com/asromriell), [J. Pastor](https://github.com/jaimeps), [J. Pollard](https://github.com/pollardJ)
+
+### Data Description:  
+Source: [ArXiv Electronic Archive of Scientific Papers](http://arxiv.org/) <br />
+We analyzed the entire database of arXiv.org (1.6GB): <br />
+- 1.26 million papers <br />
+- 600,000 authors <br />
+- 86,262,827 words <br />
+
+### Goal:
+Exploratory Data Analysis and Community Detection, implemented with three different technologies (postgreSQL, Hive and Spark) for performance comparison.
+
+### Experimental environment:
+Local: 
+	MacBook Pro 2.7 GHz Intel Core i5 16 GB 1867 MHz DDR3
+
+Distributed:
+	4-node cluster of r3.xlarge (160GB) emr-4.6.0 
+	Hadoop distribution: Amazon 2.7.2 
+	Applications: Hive 1.0.0, Pig 0.14.0, Spark 1.6.1
+
+### Results:
+The following table summarizes the running time (in seconds) of the tasks in each of the different platforms (postgreSQL, Hive and SparkSQL):
+
