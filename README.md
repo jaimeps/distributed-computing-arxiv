@@ -26,6 +26,12 @@ Distributed: <br />
 >Hadoop distribution: Amazon 2.7.2 <br /> 
 >Applications: Hive 1.0.0, Pig 0.14.0, Spark 1.6.1 <br /> 
 
-### Results:
+### Summary results:
 The following table summarizes the running time (in seconds) of the tasks in each of the different platforms (postgreSQL, Hive and SparkSQL):
+<img src="https://github.com/jaimeps/distributed-computing-arxiv/blob/master/images/running_time.png">
+As the queries grew in complexity (4 and 5), Hive and SparkSQL perform drastically better than PostgreSQL. In particular, we observed a reduction in running times between 80% and 97% using SparkSQL.
+
+We concluded that - in the context of this problem - SparkSQL was the optimal tool given its speed, ease of use and flexibility.
+<img src="https://github.com/jaimeps/distributed-computing-arxiv/blob/master/images/evaluation.png">
+
 
